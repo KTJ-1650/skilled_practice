@@ -33,6 +33,6 @@ public class ScheduleController {
 
        ScheduleResponseDto schedule = scheduleService.updateSchedule(scheduleId,scheduleRequestDto);
 
-        return ResponseEntity.ok("수정이 완료 되었습니다");
+        return ResponseEntity.ok().build();
     }
 }

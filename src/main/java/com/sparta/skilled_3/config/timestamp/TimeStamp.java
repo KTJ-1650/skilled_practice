@@ -1,4 +1,4 @@
-package com.sparta.skilled_3.config;
+package com.sparta.skilled_3.config.timestamp;
 
 import jakarta.persistence.*;
 import lombok.Getter;
